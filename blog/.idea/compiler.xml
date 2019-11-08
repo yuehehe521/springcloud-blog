@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="user" />
+        <module name="gateway" />
+        <module name="public" />
+        <module name="test" />
+        <module name="comment" />
+        <module name="zipkin" />
+        <module name="blogmgr" />
+        <module name="search" />
+        <module name="category" />
+        <module name="register" />
+        <module name="mybatis-generator" />
+        <module name="config" />
+        <module name="common" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="blog" target="1.8" />
+      <module name="blogmgr" target="1.8" />
+      <module name="category" target="1.8" />
+      <module name="client" target="1.8" />
+      <module name="comment" target="1.8" />
+      <module name="common" target="1.8" />
+      <module name="config" target="1.8" />
+      <module name="gateway" target="1.8" />
+      <module name="mybatis-generator" target="1.8" />
+      <module name="public" target="1.8" />
+      <module name="register" target="1.8" />
+      <module name="search" target="1.8" />
+      <module name="test" target="1.8" />
+      <module name="user" target="1.8" />
+      <module name="zipkin" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="blogmgr" options="-parameters" />
+      <module name="category" options="-parameters" />
+      <module name="comment" options="-parameters" />
+      <module name="common" options="-parameters" />
+      <module name="config" options="-parameters" />
+      <module name="gateway" options="-parameters" />
+      <module name="mybatis-generator" options="-parameters" />
+      <module name="public" options="-parameters" />
+      <module name="register" options="-parameters" />
+      <module name="search" options="-parameters" />
+      <module name="test" options="-parameters" />
+      <module name="user" options="-parameters" />
+      <module name="zipkin" options="-parameters" />
+    </option>
+  </component>
+</project>
